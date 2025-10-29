@@ -30,7 +30,7 @@ function Course() {
   ];
 
   return (
-    <div className="bg-gray-00">
+    <div className="">
       <div className="max-w-screen-2xl py-5 mx-auto px-5 my-10 rounded-lg">
         {/* Heading */}
         <div className="text-center mb-16">
@@ -39,11 +39,11 @@ function Course() {
         </div>
 
         {/* Courses Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full  items-center justify-center place-items-center">
           {courses.map((course) => (
             <div
               key={course.id}
-              className="border rounded-lg overflow-hidden shadow-lg bg-gray-200 text-gray-800 hover:scale-105 transition-transform duration-300 flex flex-col justify-between py-4 px-2 w-[300px] lg:w-[350px]  h-[400px]"
+              className="border rounded-lg overflow-hidden shadow-lg bg-gray-200 text-gray-800 hover:scale-105 transition-transform duration-300 flex flex-col justify-between py-4 px-2 w-[350px] md:w-[300px] lg:w-[350px]  h-[400px]"
             >
               {/* Image */}
               <img
