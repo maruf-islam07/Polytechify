@@ -43,7 +43,7 @@ function Course() {
           {courses.map((course) => (
             <div
               key={course.id}
-              className="border rounded-lg overflow-hidden shadow-lg bg-gray-200 text-gray-800 hover:scale-105 transition-transform duration-300 flex flex-col justify-between py-4 px-2 w-[400px] md:w-[300px] lg:w-[350px]  h-[400px]"
+              className="border rounded-lg overflow-hidden shadow-lg bg-gray-200 text-gray-800 hover:scale-105 transition-transform duration-300 flex flex-col justify-between py-4 px-2 w-[300px] md:w-[300px] lg:w-[350px]  h-[400px]"
             >
               {/* Image */}
               <img
